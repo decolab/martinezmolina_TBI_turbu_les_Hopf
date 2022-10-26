@@ -1,6 +1,6 @@
 # Turbulent-like whole brain dynamics and Hopf computational model
 
-Code used in Martínez-Molina et al. 2022 "The evolution of whole-brain dynamics during recovery from traumatic brain injury" (in preparation)
+Code used in Martínez-Molina et al. 2022 "The evolution of whole-brain dynamics during recovery from traumatic brain injury" (in preparation).
 
 Data was downloaded from the Open Neuro repository (https://openneuro.org/datasets/ds000220/versions/1.0.0/file-display/dataset_description.json) and preprocessed using the CONN toolbox (https://web.conn-toolbox.org).
 
