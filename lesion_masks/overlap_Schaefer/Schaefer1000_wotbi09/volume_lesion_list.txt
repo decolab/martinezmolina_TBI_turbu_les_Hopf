@@ -1,0 +1,10 @@
+wsub-tbi02_lesion_mask_robin_RS.nii_lesion_volume.txt
+wsub-tbi03_lesion_mask_robin_RS.nii_lesion_volume.txt
+wsub-tbi04_lesion_mask_robin_RS.nii_lesion_volume.txt
+wsub-tbi05_lesion_mask_robin_RS.nii_lesion_volume.txt
+wsub-tbi06_lesion_mask_robin_RS.nii_lesion_volume.txt
+wsub-tbi07_lesion_mask_robin_RS.nii_lesion_volume.txt
+wsub-tbi08_lesion_mask_robin_RS.nii_lesion_volume.txt
+wsub-tbi10_lesion_mask_robin_RS.nii_lesion_volume.txt
+wsub-tbi11_lesion_mask_robin_RS.nii_lesion_volume.txt
+wsub-tbi14_lesion_mask_robin_RS.nii_lesion_volume.txt
