@@ -194,8 +194,3 @@ saveas(gcf,'lesion_mask_4SD_weighted.fig')
 
 clear frequency range_weights
 
-%Nodes lesion in any patient to exclude from turbulence measures
-aux=reshape((repmat(1:1000,10,1))', [10000 1]);
-node2exclude_anypatient=unique(aux(idx));
-
-save('node2exclude_anypatient.mat','node2exclude_anypatient')
