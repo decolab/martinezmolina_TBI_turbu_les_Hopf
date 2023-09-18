@@ -1,0 +1,12 @@
+sub-tbi02_lesion_mask_bin.nii_lesion_volume.txt
+sub-tbi03_lesion_mask_bin.nii_lesion_volume.txt
+sub-tbi04_lesion_mask_bin.nii_lesion_volume.txt
+sub-tbi05_lesion_mask_bin.nii_lesion_volume.txt
+sub-tbi06_lesion_mask_bin.nii_lesion_volume.txt
+sub-tbi07_lesion_mask_bin.nii_lesion_volume.txt
+sub-tbi08_lesion_mask_bin.nii_lesion_volume.txt
+sub-tbi09_lesion_mask_bin.nii_lesion_volume.txt
+sub-tbi10_lesion_mask_bin.nii_lesion_volume.txt
+sub-tbi11_lesion_mask_bin.nii_lesion_volume.txt
+sub-tbi12_lesion_mask_bin.nii_lesion_volume.txt
+sub-tbi14_lesion_mask_bin.nii_lesion_volume.txt
