@@ -1,4 +1,4 @@
-# Turbulent-like whole brain dynamics and Hopf computational model
+# Whole-brain turbulent-like dynamics and Hopf computational model
 
 Code used in Martínez-Molina et al. 2022 "The evolution of whole-brain turbulent dynamics during recovery from traumatic brain injury" (in preparation).
 
