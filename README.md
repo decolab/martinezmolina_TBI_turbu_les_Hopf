@@ -12,7 +12,7 @@ This repository contains the code to run the model-free and model-based approach
 
 ## Model-free approach: Turbulent-like dynamics measures
 
-The core of the model-free approach consists of 2 steps: (1) getting the derivatives from time-series in the right format after denoising in the CONN toolbox, and (2) calculating the turbulent-like dynamics measures. Step 1 is performed with the scripts *timeseriesforturbulence_ON_HC_Sch1000_tp1.m,timeseriesforturbulence_ON_HC_Sch1000_tp2.m *and *timeseriesforturbulence_ON_tbi_Sch1000_tp123.m. Step 2 requires the outputs from step 1 as inputs (these can be found in the time-series folder) and the scripts *turbulence_empirical_measures_hc_sch1000_tp1.m,turbulence_empirical_measures_hc_sch1000_tp2.m *and *turbulence_empirical_measures_tbi_sch1000_tp123.m.
+The core of the model-free approach consists of 2 steps: (1) getting the derivatives from time-series in the right format after denoising in the CONN toolbox, and (2) calculating the turbulent-like dynamics measures. Step 1 is performed with the scripts *timeseriesforturbulence_ON_HC_Sch1000_tp1.m, timeseriesforturbulence_ON_HC_Sch1000_tp2.m* and *timeseriesforturbulence_ON_tbi_Sch1000_tp123.m*. Step 2 requires the outputs from step 1 as inputs (these can be found in the time-series folder) and the scripts *turbulence_empirical_measures_hc_sch1000_tp1.m, turbulence_empirical_measures_hc_sch1000_tp2.m* and *turbulence_empirical_measures_tbi_sch1000_tp123.m*.
 
 ## Model-based approach: without lesions 
 
