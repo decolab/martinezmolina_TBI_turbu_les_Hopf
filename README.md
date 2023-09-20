@@ -34,6 +34,6 @@ The lesion mask arrays are introduced at 2 steps for the model-based approach by
 
 So far, we have presented the code to get the results in this paper. The visualization folder contains the Matlab and Python code that were used to create Figures 1-5 and FigS1. Note that the plots for FigS2 were obtained with the code in the lesion-masks folder.
 
-For any queries regarding the usage of this code, please feel free to contact me: noelia.martinezmolina@gmail.com
+For any queries regarding the adaptation of this code, please feel free to contact me: noelia.martinezmolina@gmail.com
 
 
