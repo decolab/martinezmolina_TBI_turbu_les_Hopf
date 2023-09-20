@@ -24,7 +24,7 @@ The code in this folder allows to build a Hopf whole-brain model with Stuart-Lan
 
 The folder lesion-masks contains the binary lesion masks for each TBI patient as provided by the curators of this data set (subfolder lesions_renamed) and the code needed to create the lesion mask array used in the Hopf whole-brain model. The binary lesion masks were normalized in SPM and resampled to the Schaefer parcellation space using the Draw VOI tools in mricron v.1.0.20201102. The normalized resampled binary lesion masks can be found in TBI_ON_turbu_Hopf/lesion_masks/overlap_Schaefer/Schaefer1000_wotbi09/.  Note that TBI sub-01 had no visible lesion and that normalization of TBI sub-09 failed and no lesion mask was used for this patient. The normalized binary lesion masks are used by the bash script *get_lesion_overlap_Schaefer1000_mricron.sh* to calculate the overlap between the lesion mask of the patient and each parcel in the Schaefer 1000 parcellation. The outputs from this script include the volume for each of the Schaefer parcel (Schaefer_volume_combined.txt) and the overlap of the lesion mask for each parcel and TBI patient (overlap_volume_combined_wsub-tbixx.txt). These files are loaded using the *get_lesion_mask_array_Schaefer1000.m* script, which calculates the percent overlap with each Schaefer parcel by dividing the overlap between the lesion and each parcel by the parcel’s volume (l24-26). This is used to find the nodes to attack based on 1.5, 2, 3 and 4 std from the overlap volume in all patients. Therefore, the binary lesion masks are created by setting to 0 the values for the nodes to attack (l55-91), that is, complete deletion. For the weighted approach (l93-193), the weight is computed by calculating the number of patients with the lesioned node divided by the total number of TBI patients. Then the value in the lesion mask matrix between that node and the rest of the brain is set to 1 - weight. The resulting lesion mask arrays for each approach and threshold are depicted in Figure 2.   
 
-
+![Figure2](https://github.com/noechan/TBI_ON_turbu_Hopf/blob/main/Figure2.jpg)
 
 ## Model-based approach: with lesions 
 
@@ -32,6 +32,8 @@ The lesion mask arrays are introduced at 2 steps for the model-based approach by
 
 ## Visualization
 
-So far, we have presented the code to get the results in this paper. The visualization folder contains the Matlab and Python code that were used to create Figures 1-5 and FigS1. Note that the plots for FigS2 were obtained with the code in the lesion-masks folder.  
+So far, we have presented the code to get the results in this paper. The visualization folder contains the Matlab and Python code that were used to create Figures 1-5 and FigS1. Note that the plots for FigS2 were obtained with the code in the lesion-masks folder.
+
+For any queries regarding the usage of this code, please feel free to contact me: noelia.martinezmolina@gmail.com
 
 
