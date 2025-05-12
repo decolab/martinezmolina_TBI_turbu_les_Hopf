@@ -1,0 +1,36 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "TBI_turbulentdynamics_Hopfmodel_pipeline",
+  "description": "This repository contains the code to run the model-free and model-based approaches as well as some inputs using the Schaefer 1000 7 RSNs parcellation. The repository is organized in six folders: (1) model-free – whole-brain turbulent-like dynamics; (2) model-based – Hopf whole-brain model with intact structural connectivity; (3) model-based-lesions – Hopf model after simulated attacks; (4) CONN_preprocessing – CONN toolbox denoising outputs; (5) time-series – inputs for model-free/model-based analyses; (6) lesion-masks – code for the simulated attack approach.",
+  "codeRepository": "https://github.com/noechan/TBI_ON_turbu_Hopf",
+  "dateCreated": "2025-03-25",
+  "license": "https://spdx.org/licenses/CC-BY-NC-4.0",
+  "applicationCategory": "Neuroscience",
+  "keywords": [
+    "turbulent dynamics",
+    "computational modeling",
+    "simulated attack approach",
+    "whole-brain model",
+    "traumatic brain injury",
+    "Hopf model"
+  ],
+  "programmingLanguage": [
+    {
+      "@type": "ComputerLanguage",
+      "name": "Python"
+    },
+    {
+      "@type": "ComputerLanguage",
+      "name": "MATLAB"
+    },
+    {
+      "@type": "ComputerLanguage",
+      "name": "Shell"
+    }
+  ],
+  "referencePublication": {
+    "@type": "ScholarlyArticle",
+    "url": "https://www.frontiersin.org/journals/neuroinformatics/articles/10.3389/fninf.2024.1382372/full"
+  }
+}
