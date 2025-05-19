@@ -1,0 +1,52 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "TBI_turbulentdynamics_Hopfmodel_pipeline",
+  "description": "This repository contains the code to run the model-free and model-based approaches as well as some inputs using the Schaefer 1000 7 RSNs parcellation. The repository is organized in six folders: (1) model-free – whole-brain turbulent-like dynamics; (2) model-based – Hopf whole-brain model with intact structural connectivity; (3) model-based-lesions – Hopf model after simulated attacks; (4) CONN_preprocessing – CONN toolbox denoising outputs; (5) time-series – inputs for model-free/model-based analyses; (6) lesion-masks – code for the simulated attack approach.",
+  "codeRepository": "https://github.com/decolab/martinezmolina_TBI_turbu_les_Hopf",
+  "dateCreated": "2023-10-13",
+  "datePublished": "025-03-25",
+  "version": "1.0.0",
+  "license": "https://spdx.org/licenses/MIT",
+  "applicationCategory": "Neuroscience",
+  "keywords": [
+    "turbulent dynamics",
+    "computational modeling",
+    "simulated attack approach",
+    "whole-brain model",
+    "traumatic brain injury",
+    "Hopf model"
+  ],
+  "programmingLanguage": [
+    {
+      "@type": "ComputerLanguage",
+      "name": "Python"
+    },
+    {
+      "@type": "ComputerLanguage",
+      "name": "MATLAB"
+    },
+    {
+      "@type": "ComputerLanguage",
+      "name": "Shell"
+    }
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Noelia",
+      "familyName": "Martínez-Molina",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University Pompeu Fabra"
+      },
+      "email": "noelia.martinez@upf.edu",
+      "identifier": "https://orcid.org/0000-0001-7699-5540"
+    }
+  ],
+  "referencePublication": {
+    "@type": "ScholarlyArticle",
+    "url": "https://www.frontiersin.org/journals/neuroinformatics/articles/10.3389/fninf.2024.1382372/full"
+  }
+}
+
